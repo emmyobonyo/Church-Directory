@@ -56,3 +56,29 @@ input {
   border: none;
   padding: 3px;
 }
+
+/* How it works */
+
+#how-it-works {
+  margin: 25px 10px;
+  text-align: center;
+}
+
+.how-it-works {
+  border: none;
+  padding: 5px;
+  background-color: rgb(201, 209, 211);
+}
+
+.hit-h2 {
+  font-weight: 600;
+  color: #D4574A;
+}
+
+.search-hit {
+  height: 230px;
+}
+
+.how-it-works-icon-decription {
+  font-weight: 600;
+}
