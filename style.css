@@ -82,3 +82,55 @@ input {
 .how-it-works-icon-decription {
   font-weight: 600;
 }
+
+/* Praise */
+
+#praise {
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.rounded-image {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.rounded-image img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.h5-praise {
+  font-weight: 600;
+}
+
+.submit-praise {
+  width: 50%;
+  color: #D4574A;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.praise-top {
+  background-color: #D4574A;
+  padding: 15px 5px;
+}
+
+.praise-middle {
+  background-color: #A3A59D;
+}
+
+.submit-praise-middle {
+  color: #A3A59D;
+  width: 70%;
+}
+
+.praise-bottom {
+  background-color: #509BD7;
+}
