@@ -55,10 +55,10 @@
         <div class="background-image d-flex">
           <div>
             <h3 class="bg-text-h3 text-white text-center">PATA CHURCH... YOUR GATEWAY TO CHURCHES IN UGANDA</h3>
-            <form action="/">
+            <form action="/" class="form-bg">
               <label for="search" class="text-dark font-weight-bold">SEARCH BY KEY-WORD</label><br>
-              <input type="text" id="search"><br>
-              <input type="submit" value="SEARCH" class="mt-2 text-white submit">
+              <input type="text" id="search" class="bg-input"><br>
+              <input type="submit" value="SEARCH" class="mt-2 text-white submit bg-input">
             </form>
             <button class="mt-2 how-it-works" type="button">How it works</button>
           </div>
@@ -125,11 +125,26 @@
     </main>
     <footer>
       <div class="contact-us d-flex flex-column align-items-center">
-        <div>
-          <h4>SUBSCRIBE</h4>
-          <form action="/">
-            <input type="text" placeholder="heheh">
+        <div class="mt-4">
+          <h4 class="text-subscribe">SUBSCRIBE</h4>
+          <form class="form-inline mt-4">
+            <div class="form-group mb-2">
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <button type="submit" class="btn btn-secondary mb-2">Send</button>
           </form>
+        </div>
+        <div class="mt-5">
+          <h4 class="text-subscribe">CONTACT</h4>
+          <p class="mt-4 text-subscribe">Have a question or submission?<br>
+            <a href="#">contact@patachurch.org</a>
+          </p>
+        </div>
+        <div class="mt-5">
+          <h4 class="text-subscribe">ABOUT</h4>
+          <p class="mt-4 text-subscribe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nulla soluta voluptatem praesentium sequi pariatur minima ad aspernatur sit eaque!<br>
+            <a href="#">contact@patachurch.org</a>
+          </p>
         </div>
       </div>
     </footer>

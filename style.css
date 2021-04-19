@@ -41,12 +41,12 @@ nav {
   font-weight: 900;
 }
 
-form {
+.form-bg {
   padding: 3px 4px;
   background-color: rgba(201, 209, 211, 0.5);
 }
 
-input {
+.bg-input {
   width: 100%;
   border: none;
 }
@@ -138,5 +138,16 @@ input {
 /* Footer */
 
 footer {
+  background-color: black;
   text-align: center;
+  margin-top: 5px;
+}
+
+.text-subscribe {
+  font-weight: 600;
+  color: #B5B7BC;
+}
+
+.form-control {
+  background-color: black;
 }
