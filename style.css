@@ -151,3 +151,7 @@ footer {
 .form-control {
   background-color: black;
 }
+
+.footer-anchor {
+  color: orangered;
+}
