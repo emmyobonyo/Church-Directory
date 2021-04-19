@@ -57,6 +57,15 @@ nav {
   padding: 3px;
 }
 
+.anchor-search {
+  display: block;
+  width: 100%;
+  background-color: #D4574A;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+
 /* How it works */
 
 #how-it-works {

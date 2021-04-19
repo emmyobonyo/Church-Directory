@@ -10,6 +10,7 @@
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./results.css">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -50,79 +51,24 @@
       </div>
       <div class="right-nav"></div>
     </nav>
-    <main>
-      <section id="background-id">
-        <div class="background-image d-flex">
-          <div>
-            <h3 class="bg-text-h3 text-white text-center">PATA CHURCH... YOUR GATEWAY TO CHURCHES IN UGANDA</h3>
-            <form action="/" class="form-bg">
-              <label for="search" class="text-dark font-weight-bold">SEARCH BY KEY-WORD</label><br>
-              <input type="text" id="search" class="bg-input"><br>
-              <a href="./results.html" class="anchor-search">SEARCH</a>
-            </form>
-            <button class="mt-2 how-it-works" type="button">How it works</button>
-          </div>
-        </div>
-      </section>
-      <section id="how-it-works">
-        <h2 class="hit-h2">PATA CHURCH WORKS IN FOUR SIMPLE WAYS</h2>
-        <div class="hit-top d-flex flex-column mt-5">
-          <div class="search-hit d-flex flex-column align-items-center justify-content-around">
-            <i class="fas fa-search fa-2x text-secondary"></i>
-            <h2 class="how-it-works-icon-decription text-secondary">1 - SEARCH</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quam!</p>
-          </div>
-          <div class="search-hit d-flex flex-column align-items-center justify-content-around">
-            <i class="fas fa-map-marked-alt fa-2x text-secondary"></i>
-            <h2 class="how-it-works-icon-decription text-secondary">2 - LOCATE</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quam!</p>
-          </div>
-        </div>
-        <div class="hit-top d-flex flex-column">
-          <div class="search-hit d-flex flex-column align-items-center justify-content-around">
-            <i class="far fa-sticky-note fa-2x text-secondary"></i>
-            <h2 class="how-it-works-icon-decription text-secondary">3 - APPLY</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quam!</p>
-          </div>
-          <div class="search-hit d-flex flex-column align-items-center justify-content-around">
-            <i class="fas fa-umbrella-beach fa-2x text-secondary"></i>
-            <h2 class="how-it-works-icon-decription text-secondary">4 - RELAX</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quam!</p>
-          </div>
-        </div>
-      </section>
-      <section id="praise">
-        <div class="d-flex flex-column align-items-center praise-top">
-          <div class="rounded-image">
-            <img src="./images/church-1.jpg" alt="church-1">
-          </div>
-          <div class="d-flex flex-column mt-5 align-items-center">
-            <h5 class="h5-praise text-white">Over 10,000 churches Registered</h5>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iure.</p>
-            <button class="submit-praise bg-white" type="button"><b>Find a Church</b></button>
-          </div>
-        </div>
-        <div class="d-flex flex-column align-items-center praise-top mt-5 praise-middle">
-          <div class="rounded-image">
-            <img src="./images/church-2.jpg" alt="church-1">
-          </div>
-          <div class="d-flex flex-column mt-5 align-items-center">
-            <h5 class="h5-praise text-white">No Need to take three Matatus to find a good church</h5>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iure.</p>
-            <button class="submit-praise  submit-praise-middle" type="button"><b>Find a Church Near You</b></button>
-          </div>
-        </div>
-        <div class="d-flex flex-column align-items-center praise-top mt-5 praise-bottom">
-          <div>
-            <img src="./images/phone.png" alt="church-1">
-          </div>
-          <div class="d-flex flex-column mt-5 align-items-center">
-            <h5 class="h5-praise text-white">Always available whenever you need it to be available</h5>
-            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iure.</p>
-          </div>
-        </div>
-      </section>
-    </main>
+    <section id="results-form-section">
+      <h5>Filter by Religion, Country, State or Choir</h5>
+      <form action="/">
+        <fieldset>
+          <label for="church-name">CHURCH NAME:*</label><br>
+          <input type="text" id="church-name">
+        </fieldset>
+        <fieldset class="mt-3">
+          <label>COUNTRY:</label><br>
+            <input list="country"/>
+            <datalist id="country">
+              <option value="Uganda">
+              <option value="Kenya">
+              <option value="Tanzania">
+            </datalist>
+        </fieldset>
+      </form>
+    </section>
     <footer>
       <div class="contact-us d-flex flex-column align-items-center">
         <div class="mt-4">
@@ -157,11 +103,9 @@
         <div class="text-white pb-3">&#169; 2021 patachurch</div>
       </div>
     </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-</html>
