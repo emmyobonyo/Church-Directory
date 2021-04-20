@@ -1,11 +1,11 @@
 body {
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Nav */
 
 nav {
-  background-color: #C25D51;
+  background-color: #c25d51;
 }
 
 .word-logo {
@@ -52,7 +52,7 @@ nav {
 }
 
 .submit {
-  background-color: #D4574A;
+  background-color: #d4574a;
   border: none;
   padding: 3px;
 }
@@ -60,7 +60,7 @@ nav {
 .anchor-search {
   display: block;
   width: 100%;
-  background-color: #D4574A;
+  background-color: #d4574a;
   color: white;
   text-align: center;
   padding: 3px;
@@ -81,7 +81,7 @@ nav {
 
 .hit-h2 {
   font-weight: 600;
-  color: #D4574A;
+  color: #d4574a;
 }
 
 .search-hit {
@@ -95,7 +95,7 @@ nav {
 /* Praise */
 
 #praise {
-  padding: 25px 0px;
+  padding: 25px 0;
   text-align: center;
 }
 
@@ -120,28 +120,28 @@ nav {
 
 .submit-praise {
   width: 50%;
-  color: #D4574A;
+  color: #d4574a;
   border: none;
   padding: 5px;
   border-radius: 3px;
 }
 
 .praise-top {
-  background-color: #D4574A;
+  background-color: #d4574a;
   padding: 15px 5px;
 }
 
 .praise-middle {
-  background-color: #A3A59D;
+  background-color: #a3a59d;
 }
 
 .submit-praise-middle {
-  color: #A3A59D;
+  color: #a3a59d;
   width: 70%;
 }
 
 .praise-bottom {
-  background-color: #509BD7;
+  background-color: #509bd7;
 }
 
 /* Footer */
@@ -154,7 +154,7 @@ footer {
 
 .text-subscribe {
   font-weight: 600;
-  color: #B5B7BC;
+  color: #b5b7bc;
 }
 
 .form-control {
