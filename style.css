@@ -187,10 +187,20 @@ footer {
 
 .fa-map-marker-alt {
   position: absolute;
-  top: 20px;
+  top: 4%;
   left: 46%;
   border: 1px solid #676869;
   background-color: black;
   padding: 20px;
   border-radius: 55px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+  .top-nav {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+  }
 }
