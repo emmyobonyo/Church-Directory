@@ -150,6 +150,17 @@ footer {
   background-color: black;
   text-align: center;
   margin-top: 5px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.footer-nav-ul {
+  list-style-type: none;
+  margin-bottom: 0 !important;
+}
+
+.footer-nav-li {
+  display: inline;
 }
 
 .text-subscribe {
@@ -167,4 +178,19 @@ footer {
 
 .lower-footer {
   background-color: #676869;
+}
+
+.footer-div-links {
+  border-top: 1px solid #676869;
+  border-bottom: 1px solid #676869;
+}
+
+.fa-map-marker-alt {
+  position: absolute;
+  top: 20px;
+  left: 46%;
+  border: 1px solid #676869;
+  background-color: black;
+  padding: 20px;
+  border-radius: 55px;
 }
