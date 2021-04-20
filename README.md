@@ -1,10 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# PataChurch
 
-> One paragraph statement about the project.
+> Patachurch is an online Church Directory containing thousands of entries form different Churches, of all denominations in East Africa. 
 
-![screenshot](./app_screenshot.png)
+![Home Small Screens](./images/pc-small.png)
+![Filter Small Screens](./images/pc-small-2.png)
+
+- Small Screens
 
 Additional description about the project and its features.
 
