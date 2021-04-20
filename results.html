@@ -52,15 +52,15 @@
       <div class="right-nav"></div>
     </nav>
     <section id="results-form-section">
-      <h5>Filter by Religion, Country, State or Choir</h5>
-      <form action="/">
+      <h5 class="filter-h5 text-secondary">Filter by Religion, Country, State or Choir</h5>
+      <form action="/" class="mt-3">
         <fieldset>
-          <label for="church-name">CHURCH NAME:*</label><br>
-          <input type="text" id="church-name">
+          <label for="church-name labels"><b>CHURCH NAME:*</b></label><br>
+          <input type="text" id="church-name" class="filter-input">
         </fieldset>
         <fieldset class="mt-3">
-          <label>COUNTRY:</label><br>
-            <input list="country"/>
+          <label><b>COUNTRY:</b></label><br>
+            <input list="country" class="filter-input"/>
             <datalist id="country">
               <option value="Uganda">
               <option value="Kenya">
@@ -68,8 +68,8 @@
             </datalist>
         </fieldset>
         <fieldset class="mt-3">
-          <label>DENOMINATION:</label><br>
-            <input list="denomination"/>
+          <label><b>DENOMINATION:</b></label><br>
+            <input list="denomination" class="filter-input"/>
             <datalist id="denomination">
               <option value="Anglican">
               <option value="Catholic">
@@ -77,8 +77,8 @@
             </datalist>
         </fieldset>
         <fieldset class="mt-3">
-          <label>SERVICE DURATION:</label><br>
-            <input list="service-duration"/>
+          <label><b>SERVICE DURATION:</b></label><br>
+            <input list="service-duration" class="filter-input"/>
             <datalist id="service-duration">
               <option value="2 hours">
               <option value="1 half hours">
@@ -86,8 +86,8 @@
             </datalist>
         </fieldset>
         <fieldset class="mt-3">
-          <label>CAPACITY:</label><br>
-            <input list="capacity"/>
+          <label><b>CAPACITY:</b></label><br>
+            <input list="capacity" class="filter-input"/>
             <datalist id="capacity">
               <option value="Greater than 2000">
               <option value="Less than 1000">
@@ -95,8 +95,8 @@
             </datalist>
         </fieldset>
         <fieldset class="mt-3">
-          <button type="button">Search</button>
-          <button><i class="fa fa-edit"></i> Clear Filter</button>
+          <button class="btn-primary text-white filter-button" type="button">Search</button>
+          <button class="btn-warning text-white filter-button"><i class="fa fa-edit"></i> Clear Filter</button>
         </fieldset>
       </form>
     </section>

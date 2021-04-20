@@ -4,3 +4,16 @@
   background-color: #EEEEEE;
   padding: 10px;
 }
+
+.filter-h5 {
+  font-weight: 600;
+}
+
+.filter-input {
+  border: 1px solid #B4B4B4;
+}
+
+.filter-button {
+  border: none;
+  padding: 5px 10px;
+}
