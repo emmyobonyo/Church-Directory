@@ -208,4 +208,10 @@ footer {
     width: 50%;
     margin: auto;
   }
+
+  #how-it-works {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
 }
