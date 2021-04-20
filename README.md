@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Emmanuel Obonyo**
 
 - GitHub: [@emmyobonyo](https://github.com/emmyobonyo)
 - Twitter: [@emmyobonyo](https://twitter.com/emmyobonyo)
