@@ -203,4 +203,9 @@ footer {
     flex-direction: row !important;
     justify-content: space-around;
   }
+
+  .bg-image-text {
+    width: 50%;
+    margin: auto;
+  }
 }
