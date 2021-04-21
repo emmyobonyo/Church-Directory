@@ -53,9 +53,15 @@ input[type=submit] {
   cursor: pointer;
 }
 
+.text-area {
+  height: 170px;
+}
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+
 
 @media screen and (min-width: 768px) {
   .cover-text-p {
