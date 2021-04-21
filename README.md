@@ -6,8 +6,21 @@
 
 ![Home Small Screens](./images/pc-small.png)
 ![Filter Small Screens](./images/pc-small-2.png)
+![Church Item Small Screens](./church-item-ss.png)
 
 - Small Screens
+
+![Home Medium Screens](./images/main-ms.png)
+![Filter Medium Screens](./images/filter-ms.png)
+![Church Item Small Screens](./ci-ms.png)
+
+- Medium Screens
+
+![Home Large Screens](./images/main-ls.png)
+![Filter Large Screens](./images/filter-ms.png)
+![Church Item Large Screens](./ci-ls.png)
+
+- Medium Screens
 
 - Note: 'Web App' and 'Directory' are used interchangeably in this README
 - Users can Sign Up and have accounts on the Web App
