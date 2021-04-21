@@ -74,7 +74,7 @@ input[type=submit]:hover {
     margin-top: 0 !important;
   }
 
-  .mt-4 {
+  form.mt-4 {
     margin-top: 0 !important;
   }
 }
