@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Open terminal (Mac, Linux) or Command Line (Windows) at a directory on your computer where you'd like the project stored, and paste this command `git clone https://github.com/emmyobonyo/Chruch-Directory.git` and then `cd Church-Directory`
 
-- Or we can save time and you just `fork` the repository
+- Look for the `index.html` file and open in your favourite browser.
 
 
 ## Authors
