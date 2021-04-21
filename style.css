@@ -215,4 +215,8 @@ footer {
     margin: auto;
     margin-top: 30px;
   }
+
+  .text-white.pb-3.pd-md-0 {
+    padding-bottom: 0 !important;
+  }
 }
