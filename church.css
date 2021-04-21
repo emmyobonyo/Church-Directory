@@ -36,7 +36,9 @@
   width: 100%;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -46,7 +48,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -60,8 +62,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
-
 
 @media screen and (min-width: 768px) {
   .cover-text-p {

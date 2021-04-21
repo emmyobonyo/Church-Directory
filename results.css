@@ -41,6 +41,10 @@
   font-size: x-large;
 }
 
+.image-seacrh {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .search-results-image.mt-4.col-md-4 {
     margin-top: 0 !important;
