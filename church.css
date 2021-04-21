@@ -27,6 +27,36 @@
   width: 90%;
 }
 
+.contact-form {
+  width: 90%;
+  margin: auto;
+}
+
+.contact-form-image {
+  width: 100%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
 @media screen and (min-width: 768px) {
   .cover-text-p {
     font-size: 25px;
@@ -41,6 +71,10 @@
 
   .card {
     width: 25% !important;
+    margin-top: 0 !important;
+  }
+
+  .mt-4 {
     margin-top: 0 !important;
   }
 }

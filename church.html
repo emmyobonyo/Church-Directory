@@ -87,7 +87,33 @@
         </div>
       </section>
       <section id="contact-section">
-
+        <div class="contact-section mt-5 text-center">
+          <h2><strong>Contact Us</strong></h2>
+          <p><strong>Pass by for some coffee on us</strong></p>
+        </div>
+        <div class="contact-form d-flex flex-column flex-md-row justify-content-md-around align-items-md-start">
+          <div class="col-md-5">
+            <img class="contact-form-image" src="./images/interior.jpg" alt="picture">
+          </div>
+          <div class="actual-contact-form col-md-5">
+            <form action="/" class="mt-4">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Uganda</option>
+                <option value="canada">Kenya</option>
+                <option value="usa">East Africa</option>
+                <option value="usa">Other</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
