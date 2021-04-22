@@ -20,7 +20,7 @@
 ![Filter Large Screens](./images/filter-ms.png)
 ![Church Item Large Screens](./ci-ls.png)
 
-- Medium Screens
+- Large Screens
 
 - Note: 'Web App' and 'Directory' are used interchangeably in this README
 - Users can Sign Up and have accounts on the Web App
