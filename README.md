@@ -6,13 +6,13 @@
 
 ![Home Small Screens](./images/pc-small.png)
 ![Filter Small Screens](./images/pc-small-2.png)
-![Church Item Small Screens](./church-item-ss.png)
+![](./church-item-ss.png)
 
 - Small Screens
 
 ![Home Medium Screens](./images/main-ms.png)
 ![Filter Medium Screens](./images/filter-ms.png)
-![Church Item Small Screens](./ci-ms.png)
+![](./ci-ms.png)
 
 - Medium Screens
 
