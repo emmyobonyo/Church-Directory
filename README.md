@@ -18,7 +18,7 @@
 
 ![Home Large Screens](./images/main-ls.png)
 ![Filter Large Screens](./images/filter-ms.png)
-![Church Item Large Screens](./ci-ls.png)
+![](./ci-ls.png)
 
 - Large Screens
 
