@@ -1,0 +1,52 @@
+/* Filter Section */
+
+#results-form-section {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.filter-h5 {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.filter-input {
+  border: 1px solid #b4b4b4;
+}
+
+.filter-button {
+  border: none;
+  padding: 5px 10px;
+}
+
+/* Search Results */
+
+#search-results {
+  text-align: center;
+}
+
+.search-results-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+}
+
+.image-seacrh {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .search-results-image.mt-4.col-md-4 {
+    margin-top: 0 !important;
+  }
+}

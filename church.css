@@ -1,0 +1,92 @@
+.cover-image {
+  background-image: url("./images/modern2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.cover-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.cover-text-btn {
+  border: none;
+  background-color: lightblue;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.card {
+  width: 90%;
+}
+
+.contact-form {
+  width: 90%;
+  margin: auto;
+}
+
+.contact-form-image {
+  width: 100%;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.text-area {
+  height: 170px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@media screen and (min-width: 768px) {
+  .cover-text-p {
+    font-size: 25px;
+  }
+
+  .church-description {
+    display: flex;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 25% !important;
+    margin-top: 0 !important;
+  }
+
+  form.mt-4 {
+    margin-top: 0 !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover-text-h1 {
+    font-size: 55px;
+  }
+}
